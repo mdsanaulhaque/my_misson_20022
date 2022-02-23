@@ -1,0 +1,151 @@
+body{
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+section{
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.link-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: darkorange;
+    border-radius: 8px;
+    
+}
+
+.salmon{
+    color: salmon;
+}
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.top-section{
+    display: flex;
+    margin: 20px;
+}
+
+img{
+    width: 80%;
+}
+
+.left-line{
+    border-left: 4px solid;
+    border-image: linear-gradient(salmon,Red);
+    border-image-slice: 1;
+}
+.left-line h1{
+    margin-left: 20px;
+}
+
+.my-mission-area h1{
+    text-align: center;
+}
+.my-mission{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.mission-item{
+    border-radius: 10px;
+    padding: 10px;
+}
+.mission-item img{
+    width: 40%;
+}
+#mission{
+    background-color: rgb(230, 191, 144);
+}
+#vission{
+    background-color: rgb(101, 224, 224);
+}
+#goals{
+    background-color: #31a1a5;
+}
+
+
+.unilimited-development{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.unilimited-development img{
+    padding-top: 20px;
+}
+.development-details{
+    padding-top: 60px;
+}
+
+.global-community-area{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.global-community-details{
+    padding-right: 100px;
+}
+.global-community-area img{
+    
+}
+
+.contact-us{
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us h1{
+    color: red;
+}
+
+#contact-left{
+    width: 55%;
+    padding-right: 10px;
+}
+#contact-right{
+    width: 35%;
+    padding-left: 20px;
+}
+.input-fuild{
+    width: 50%;
+    margin: 5px 0px 10px 0px;
+    padding: 10px 30px;
+    border: 1px solid lightblue;
+}
+#message-fuild{
+    padding: 50px 0px;
+    width: 54%;
+    margin-bottom: 30px;
+}
+.detail{
+    display: block;
+}
+
+
+.footer{
+    padding: 20px;
+    color: white;
+    background-color: rgb(41, 34, 34);
+    text-align: center;
+}
